@@ -73,7 +73,6 @@ const updateProgress = () => {
         progressText.textContent = `0/0`;
     }
 
-    // ✅ Corrected variable names
     if (total && completed === total) {
         blastConfetti();
     }
