@@ -35,7 +35,7 @@ body{
 }
 
 .details {
-    flex: 1; /* Use remaining space */
+    flex: 1; 
 }
 
 #number {
