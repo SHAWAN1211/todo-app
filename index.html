@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo app</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <br>
+        <marquee>📅 Stay productive! | ✅ Add tasks, ✏️ Edit tasks, 🗑️ Delete completed ones! | 🚀 Keep going, you're doing great! | 💡 Tip: Set daily goals and track them here! | 🔄 Refresh your task list every morning!</marquee>
+        <div class="container">
+            <div class="stats-container">
+                <div class="details"> 
+                    <h1>Todo app</h1>
+                    <p>keep it up</p>
+                    <div id="progressbar">
+                        <div id="progress"></div>
+                    </div>
+                </div>
+                <div id="number">2/3</div>
+            </div>
+            
+        <form action="">
+            <input type="text" id="taskinput" placeholder="write your task">
+            <button id="newtask" type="submit">+</button>
+        </form>
+        <ul class="task-list"> </ul>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</body>
+</html>
